@@ -131,22 +131,22 @@ nav {
 }
 
 .rv_image_left {
-	background-image: url(/res/images/IMG-20210621-WA0047.jpg);
+	background-image: url("./images/IMG-20210621-WA0047.jpg");
 }
 
 
 .rv_image_center {
-	background-image: url(/res/images/IMG-20210621-WA0057.jpg);
+	background-image: url("./images/IMG-20210621-WA0057.jpg");
 }
 
 .rv_image_right {
-	background-image: url(/res/images/IMG-20210621-WA0055.jpg);
+	background-image: url("./images/IMG-20210621-WA0055.jpg");
 }
 
 
 .contact {
 	height: 820px;
-	background-image: url(/res/images/IMG-20210621-WA0030.jpg);
+	background-image: url("./images/IMG-20210621-WA0030.jpg");
 	background-position: center center;
     background-size: cover;
     background-color: black;
