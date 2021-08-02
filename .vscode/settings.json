@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "html.format.endWithNewline": true,
+    "html.format.wrapLineLength": 220,
+    "prettier.printWidth": 220,
+    "prettier.useTabs": true
+}

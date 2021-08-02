@@ -1,0 +1,196 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.nav {
+	color: yellow;
+	background-color: blue;
+}
+
+.header_nav li {
+	color: white;
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_nav a {
+	color: white;
+	font: italic sans-serif;
+}
+
+.header_nav {
+	background: black;
+}
+
+.header_nav ::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: left;
+}
+
+.header_nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/* layout */
+
+.hero {
+	height: 855px;
+	overflow: hidden;
+	position: relative;
+}
+
+.hero__img {
+	filter: brightness(0.4);
+}
+
+.hero__content {
+	color: #ffffff;
+}
+
+.gallery {
+	height: 985px;
+}
+
+.gallery__grid_view {
+	width: 1170px;
+	height: 580px;
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.gv_item {
+	overflow: hidden;
+}
+.gv_img {
+	-o-object-fit: contain;
+	object-fit: contain;
+	object-position: center;
+	-o-object-position: center;
+	width:100%;
+}
+
+.gv_tl {
+	grid-area: 1/1/2/3;
+	width: 580px;
+	height: 280px;
+}
+
+.gv_right {
+	grid-area: 1/3/3/5;
+	height: 570px;
+	width: 584px;
+}
+
+.gv_b1 {
+	grid-area: 2/1/3/2;
+}
+
+.gv_b2 {
+	grid-area: 2/2/3/3;
+}
+
+.gv_b1,
+.gv_b2 {
+	height: 280px;
+	width: 280px;
+}
+
+.gallery__row_view {
+	width: 80%;;
+}
+.rv_img {
+	width: 30%;
+	object-fit: contain;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+
+}
+
+.rv_image_left {
+	background-image: url(/res/images/IMG-20210621-WA0047.jpg);
+}
+
+
+.rv_image_center {
+	background-image: url(/res/images/IMG-20210621-WA0057.jpg);
+}
+
+.rv_image_right {
+	background-image: url(/res/images/IMG-20210621-WA0055.jpg);
+}
+
+
+.contact {
+	height: 820px;
+	background-image: url(/res/images/IMG-20210621-WA0030.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-color: black;
+    background-blend-mode: multiply;
+}
+
+.footer_nav {
+	height: 126px;
+}
+
+.fn__links {
+	list-style: none;
+	text-decoration: none;
+}
+
+.copyright {
+	height: 65px;
+}
+
+
+/* colors */
+.contact {
+	background-color: #a79b94;
+}
+
+.contact__elements > * {
+	color: #ebd7c5;
+}
+
+.footer_nav {
+	background-color: #393633;
+}
+
+.copyright {
+	background-color: #000000;
+}
+
+.contact__title {
+	font-family: "Raleway", "sans-serif";
+}
+
+
+* > a {
+	color: white;
+	text-decoration: none;
+}
+
